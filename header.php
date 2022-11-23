@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet"/>
   <link href="assets/css/styles.css" rel="stylesheet"/>
   <link href="assets/css/styles2.css" rel="stylesheet"/>
+  <link href="assets/css/custom.css" rel="stylesheet"/>
   <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body>
