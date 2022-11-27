@@ -24,7 +24,7 @@
 </header>
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
   <div class="container">
-    <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+    <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.php">Grupo de Investigación - ITDATA</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,10 +41,10 @@
           <a class="nav-link text-uppercase" href="Proyectos.php">Premios e Investigaciones</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase" href="Eventos.php">Proximo Eventos</a>
+          <a class="nav-link text-uppercase" href="Eventos.php">Próximos Eventos</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase" href="Calendario.php">Calendario Actividades</a>
+          <a class="nav-link text-uppercase" href="Cursos.php">Cursos</a>
         </li>
       </ul>
     </div>
