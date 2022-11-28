@@ -6,5 +6,13 @@
 <file name="header.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133140495676849286" remote="133140495670000000" Dst="0" />
 <file name="footer.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133139855741030601" remote="133139855740000000" Dst="0" />
 <file name="index.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133139855741040593" remote="133139855740000000" Dst="0" />
-<file name="Cursos.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133140441818054345" remote="133140441810000000" Dst="0" />
+<file name="Cursos.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133140783944241489" remote="133140783940000000" Dst="0" />
+<file name="repositorio.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133139855741050589" remote="133139855740000000" Dst="0" />
+<file name="Proyectos.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133139855740440549" remote="133139855740000000" Dst="0" />
+<file name="data.json" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133140607446745676" remote="133140607440000000" Dst="0" />
+<file name="data_cursos.json" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133140614913537131" remote="133140614910000000" Dst="0" />
+<file name="detalles_curso.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133141316041686053" remote="133141316040000000" Dst="0" />
+<file name="getCursos.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133140781886903005" remote="133140781880000000" Dst="0" />
+<file name="listarCursos.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133141320353536837" remote="133141320350000000" Dst="0" />
+<file name="toUSD.php" server="C:/Users/USUARIO/Documents/GitHub/Web-ITDATA/" local="133141262556008307" remote="133141262550000000" Dst="0" />
 </dwsync>
