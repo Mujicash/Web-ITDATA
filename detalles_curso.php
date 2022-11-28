@@ -3,7 +3,7 @@ require("header.php");
 require("getCursos.php");
 require("toUSD.php");
 $e = getCursoId($_GET["id"]);
-//if($e==null) header("location:index.php");
+if($e==null) header("location:index.php");
 
 ?>
 
@@ -47,31 +47,28 @@ $e = getCursoId($_GET["id"]);
 						 </div>
 				     </div>
 
-    <!-- PayPal JavaScript SDK -->
-    <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
-
-    <script>
-        paypal.Buttons({
-            createOrder: function(data, actions) {
-                return actions.order.create({
-                    purchase_units: [{
-                        amount: {
-                            value: <?=round(toUSD("PEN",$e["precio"]),2)?>
-                        }
-                    }]
-                });
-            },
-            onApprove: function(data, actions) {
-                return actions.order.capture().then(function(orderData) {
-                    // Successful capture! For demo purposes:
-                    console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                    var transaction = orderData.purchase_units[0].payments.captures[0];
-                    document.getElementById("paypal-button-container").style.display = "none";
-					document.getElementById("msj-pago").removeAttribute("hidden");
-                });
-            }
-        }).render('#paypal-button-container');
-    </script>
+					<script>
+						paypal.Buttons({
+							createOrder: function(data, actions) {
+								return actions.order.create({
+									purchase_units: [{
+										amount: {
+											value: <?=round(toUSD("PEN",$e["precio"]),2)?>
+										}
+									}]
+								});
+							},
+							onApprove: function(data, actions) {
+								return actions.order.capture().then(function(orderData) {
+									// Successful capture! For demo purposes:
+									console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+									var transaction = orderData.purchase_units[0].payments.captures[0];
+									document.getElementById("paypal-button-container").style.display = "none";
+									document.getElementById("msj-pago").removeAttribute("hidden");
+								});
+							}
+						}).render('#paypal-button-container');
+					</script>
 				  </div>
 				</form>
 			  </div>
