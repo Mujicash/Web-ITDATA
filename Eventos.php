@@ -48,9 +48,13 @@ require("header.php");
             </em>
           </p>
           <p class="mb-0">
-            <small><em>Escribenos</em></small>
-            <br/>
-            +51 123
+           <p>Nombre y Apellidos</p>
+              <input text="nombre y apellidos"/>
+              <p>Correo</p>
+              <input text="correo institucional"/>
+              <p>Telefono celular</p>
+              <input text="telefono-celular"/>
+              <input type="submit"/>
           </p>
         </div>
       </div>
