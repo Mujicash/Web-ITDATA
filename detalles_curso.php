@@ -6,7 +6,10 @@ $e = getCursoId($_GET["id"]);
 if($e==null) header("location:index.php");
 
 ?>
-
+<div hidden id="inscripcion-correcta" class="alert alert-success fade show fixed-bottom" role="alert">
+  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="compra exitosa"><use xlink:href="#check-circle-fill"/></svg><strong>Inscripción exitosa</strong>
+	Ya se encuentra inscrito en el curso
+</div>
 		<div class="modal fade" id="modalInscripcion" tabindex="-1" aria-labelledby="modalInscripcionLabel" aria-hidden="true">
 		  <div class="modal-dialog">
 			<div class="modal-content">
@@ -34,6 +37,7 @@ if($e==null) header("location:index.php");
 				  </div>
 				  <div class="mb-3">
 					<label for="pago" class="col-form-label">Precio: S/.<?=$e["precio"]?> </label>
+					<input type="hidden" id="pago" value="" />
 					 <div id="paypal-button-container"></div>
 					 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 					  <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
@@ -65,6 +69,7 @@ if($e==null) header("location:index.php");
 									var transaction = orderData.purchase_units[0].payments.captures[0];
 									document.getElementById("paypal-button-container").style.display = "none";
 									document.getElementById("msj-pago").removeAttribute("hidden");
+									document.getElementById("pago").value=transaction.id;
 								});
 							}
 						}).render('#paypal-button-container');
@@ -74,7 +79,7 @@ if($e==null) header("location:index.php");
 			  </div>
 			  <div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-				<button type="button" class="btn btn-primary">Inscribirme</button>
+				<button type="button" class="btn btn-primary" onclick="validarForm()">Inscribirme</button>
 			  </div>
 			</div>
 		  </div>
@@ -181,16 +186,17 @@ if($e==null) header("location:index.php");
 		const apellidos = document.getElementById("apellidos");
 		const celular = document.getElementById("movil");
 		const correo = document.getElementById("correo");
-
+		const pago = document.getElementById("pago");
 		const expresiones = {
-			alfanumerico: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-			correo: /\w+@\w+\.[a-zA-Z]+(\.[a-zA-z]+)?/ 
+			nombres: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
+			correo: /\w+@[a-zA-Z]+\.[a-zA-Z]+(\.[a-zA-z]+)?/,
+			correo_1:  /\w+@(.+)?/
 		}
 		nombre.addEventListener("input",function(){
 			let msj="";
 			if (nombre.value.length<3)
 				msj= "Digite un nombre con mínimo 3 caracteres";
-			else if(!nombre.value.match(expresiones.alfanumerico))
+			else if(!nombre.value.match(expresiones.nombres))
 				msj= "Digite un nombre válido! (Sin números ni caracteres especiales)";
 			nombre.setCustomValidity(msj);
 		  }
@@ -199,7 +205,7 @@ if($e==null) header("location:index.php");
 			let msj="";
 			if (apellidos.value.length<3)
 				msj = "Digite un apellido paterno con mínimo 3 caracteres";
-			else if(!apellidos.value.match(expresiones.alfanumerico))
+			else if(!apellidos.value.match(expresiones.nombres))
 				msj = "Digite un apellido paterno válido! (Sin números ni caracteres especiales)";
 			apellidos.setCustomValidity(msj);
 		  }
@@ -209,17 +215,30 @@ if($e==null) header("location:index.php");
 			if (celular.value.length!=9)
 				msj ="Digite un número con 9 caracteres";
 			else if(!celular.value.startsWith("9"))
-				msj ="Un número de celular debe comenzar con el número 9";
+				msj ="Un número móvil debe comenzar con el número 9";
 			celular.setCustomValidity(msj);
 		  }
 		)
 		correo.addEventListener("input",function(){
 			let msj="";
-			if(!correo.value.match(expresiones.correo))
-				msj ="Después del '@' debe contener al menos un punto para el dominio (ej. 'unmsm.edu.pe')";
+			if(!correo.value.includes('@'))
+				msj ="Debe incluir un '@'";
+			else if(!correo.value.match(expresiones.correo_1))
+				msj ="Debe incluir una parte (letras y/o números) antes del '@'";
+			else if(!correo.value.match(expresiones.correo))
+				msj ="Después del '@' solo debe contener letras con al menos un punto entre ellas (ej. 'unmsm.edu.pe')";
 			correo.setCustomValidity(msj);
 		  }
 		)
+		function validarForm(){
+			if(nombres.value!=""&&apellidos.value!=""&&celular.value!=""&&correo.value!=""&&pago.value!=""){
+				$('#modalInscripcion').modal('hide');
+				document.getElementById("inscripcion-correcta").removeAttribute("hidden");
+				setTimeout(() => {
+				  document.getElementById("inscripcion-correcta").setAttribute("hidden", true);
+				}, 3000);
+			}	
+		}
 		</script>
 <?php
 require("footer.php");
