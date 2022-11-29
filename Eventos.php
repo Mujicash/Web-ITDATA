@@ -8,7 +8,7 @@ require("header.php");
         <div class="cta-inner bg-faded text-center rounded">
           <h2 class="section-heading mb-5">
             <span class="section-heading-upper">Proximos </span>
-            <span class="section-heading-lower">EVENTOS</span>
+            <span class="section-heading-lower">Eventos</span>
           </h2>
           <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
             <li class="list-unstyled-item list-hours-item d-flex">
