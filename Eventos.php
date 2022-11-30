@@ -69,7 +69,7 @@ require("header.php");
               
             </div>
           </form>
-          <script src="js/JsEventos.js"></script>
+          <script src="assets/js/JsEventos.js"></script>
         </div>
       </div>
     </div>

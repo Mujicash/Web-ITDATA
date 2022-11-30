@@ -6,4 +6,3 @@ function toUSD($from,$amount) {
 	return ($amount/$obj->rates->$from);
 }
 
-?>

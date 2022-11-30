@@ -2,7 +2,7 @@
 require("header.php");
 require "repositorio.php";
 
-$proyectos = getData();
+$proyectos = getAllProjects();
 
 foreach ($proyectos as $proyecto):
 ?>

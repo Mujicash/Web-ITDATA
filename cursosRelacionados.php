@@ -4,7 +4,7 @@
             $id++;
         else
             $id = 1;
-            $e = getCursoId($id);
+            $e = getCourseById($id);
             ?>
             <div class="col mb-5" style="max-width:300px">
             <a style="text-decoration: none;" href="detalles_curso.php?id=<?=$e["id"]?>">

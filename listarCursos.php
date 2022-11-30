@@ -1,6 +1,6 @@
 <?php
-require("getCursos.php");
-$array = getAllCursos();
+require("repositorio.php");
+$array = getAllCourses();
 
 foreach($array as $e){
 	?>
