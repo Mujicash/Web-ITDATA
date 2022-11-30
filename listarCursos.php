@@ -5,8 +5,9 @@ $array = getAllCursos();
 foreach($array as $e){
 	?>
 <div class="col mb-5">
-        <div class="card h-100">
+        
 		<a style="text-decoration: none;" href="detalles_curso.php?id=<?=$e["id"]?>">
+      <div class="card h-100">
           <img class="card-img-top" src="./assets/img/cursos/<?=$e["imagen"]?>" height="150" alt="<?=$e["imagen"]?>"/>
           <div class="card-body p-4">
             <div class="text-center">
