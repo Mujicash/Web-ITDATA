@@ -11,7 +11,7 @@ require("header.php");
           <span class="section-heading-lower">ITDATA</span>
         </h2>
         <p class="mb-3">Coordinador del GI: Ulises Román Concha (nromanc@unmsm.edu.pe)</p>
-        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Mas información</a></div>
+        <div class="intro-button mx-auto"><a class="project-card-button btn-primary btn-xl" href="#!">Mas información</a></div>
       </div>
     </div>
   </div>
