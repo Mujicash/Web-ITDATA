@@ -1,0 +1,62 @@
+[
+	{
+		"id" :1,
+		"nombre":"Introducción a Big Data",
+		"precio":50.0,
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"profesor":"Norberto Ulises Román Concha",
+		"horas": 30,
+		"imagen": "big.jpeg"
+		
+	},
+	{
+		"id":2,
+		"nombre":"Métodos de minería de datos",
+		"precio":100.0,
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"profesor":"Norberto Ulises Román Concha",
+		"horas": 30,
+		"imagen": "Data-mining.jpg"
+		
+	},
+	{
+		"id":3,
+		"nombre":"Fundamentos de Deep Learning",
+		"precio":100.0,
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"profesor":"Norberto Ulises Román Concha",
+		"horas": 30,
+		"imagen": "deep-learning.jpg"
+		
+	},
+	{
+		"id":4,
+		"nombre":"Ingeniería de la información",
+		"precio":200.0,
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"profesor":"Norberto Ulises Román Concha",
+		"horas": 30,
+		"imagen": "ing-informatica.jpg"
+		
+	},
+	{
+		"id":5,
+		"nombre":"Inteligencia de negocios",
+		"precio":150.0,
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"profesor":"Norberto Ulises Román Concha",
+		"horas": 30,
+		"imagen": "diagram-business-intelligence.png"
+		
+	},
+	{
+		"id":6,
+		"nombre":"Gestión de proyectos ",
+		"precio":120.0,
+		"descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"profesor":"Norberto Ulises Román Concha",
+		"horas": 30,
+		"imagen": "gestion-proyectos.jpg"
+		
+	}
+]
