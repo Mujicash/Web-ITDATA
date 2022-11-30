@@ -3506,7 +3506,7 @@ textarea.form-control-lg {
 }
 @media (prefers-reduced-motion: reduce) {
   .collapsing {
-    transition: none;
+    transition: 0.75s;
   }
 }
 .collapsing.collapse-horizontal {
@@ -4557,7 +4557,7 @@ textarea.form-control-lg {
 .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(248, 134, 68, 0.7);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-header:first-child {
@@ -4697,7 +4697,7 @@ textarea.form-control-lg {
 }
 @media (prefers-reduced-motion: reduce) {
   .accordion-button::after {
-    transition: none;
+    transition: 1s;
   }
 }
 .accordion-button:hover {
