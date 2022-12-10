@@ -171,9 +171,102 @@ a.project-card-button{
     text-decoration: none;
 }
 a.project-card-button:first-of-type {
-    background: #5252b4;
+    background: #873600;
     color: white;
 }
 a.project-card-button:hover{
     opacity: 0.8;
+}
+.box-container {
+    width: 100%;
+}
+
+.box {
+    max-width: 450px;
+    border-radius: 1.25rem;
+    margin: 5rem auto;
+    background: #FDEBD0;
+    color: black;
+}
+
+.box img {
+    max-width: 450px;
+    height: 450px;
+    display: block;
+    object-fit: cover;
+}
+
+.box .heading,
+.box .text {
+    width: 100%;
+    padding: 15px 20px 5px 5px;
+    min-width: 300px;
+}
+
+.heading h2 {
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 30px;
+}
+
+@media (min-width: 870px) {
+    .box-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        max-width: 750px;
+    }
+
+    .box img {
+        float: left;
+        max-width: 250px;
+        height: 35vh;
+        border-top-left-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem;
+    }
+
+    .box .heading,
+    .box .text {
+        float: right;
+        width: 65%;
+    }
+
+    .heading h2 {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1160px) {
+    .box-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        max-width: 1210px;
+    }
+
+    .box img {
+        float: left;
+        max-width: 450px;
+        height: 50vh;
+        border-top-left-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem;
+    }
+
+    .box .heading,
+    .box .text {
+        float: right;
+        width: 62%;
+    }
+
+    .heading h2 {
+        font-size: 30px;
+    }
 }

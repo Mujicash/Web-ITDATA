@@ -158,7 +158,7 @@
   },
   {
     "id": 2,
-    "nombre": "Sistema de información para el monitoreo en tiempo real de la calidad del agua de la cabecera del río amazonas, basado en \"Boyas Inteligentes\" de bajo costo construidas a partir de internet de las cosas",
+    "nombre": "Sistema de información para el monitoreo en tiempo real de la calidad del agua de la cabecera del río amazonas, basado en \"Boyas Inteligentes\" de bajo costo construidas a partir de IOT",
     "codigo": "C21201321",
     "tipo": "PCONFIGI",
     "imagen": "assets/img/iot.jpeg",

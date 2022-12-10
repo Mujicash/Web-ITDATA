@@ -42,7 +42,7 @@
           <a class="nav-link text-uppercase" href="Nosotros.php">Nosotros</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase" href="Proyectos.php">Premios e Investigaciones</a>
+          <a class="nav-link text-uppercase" href="Proyectos.php">Proyectos e Investigaciones</a>
         </li>
         <li class="nav-item px-lg-4">
           <a class="nav-link text-uppercase" href="Eventos.php">Proximo Eventos</a>
