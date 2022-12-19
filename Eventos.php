@@ -9,10 +9,12 @@ require("header.php");
     <div class="row">
       <div class="col-xl-9 mx-auto">
         <div class="cta-inner bg-faded text-center rounded">
-          <h2 class="section-heading mb-5">
-            <span class="section-heading-upper">Proximos </span>
-            <span class="section-heading-lower">EVENTOS</span>
-          </h2>
+          <div class="title">
+            <h2 class="section-heading mb-5">
+              <span class="section-heading-upper">Próximos </span>
+              <span class="section-heading-lower text-center">EVENTOS</span>
+            </h2>
+          </div>
           <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
             <li class="list-unstyled-item list-hours-item d-flex">
               Inteligencia Artificial
@@ -50,18 +52,18 @@ require("header.php");
               Virtuales
             </em>
           </p>
-          <form >
+          <form class="form_contact mx-3 mt-3" >
             <div class="mb-3">
-              <label class="form-label">Nombre y Apellidos</label>
-              <input class="form-control form-control-lg" type="text" name="dnipost" placeholder="Ingrese tu nombre y apellidos" />
+              <label >Nombre y Apellidos</label>
+              <input  type="text" name="dnipost" />
             </div>
             <div class="mb-3">
-											<label class="form-label">Correo</label>
-											<input class="form-control form-control-lg" type="text" name="dnipost" placeholder="Ingrese el Correo" />
+											<label >Correo</label>
+											<input type="text" name="dnipost"  />
 						</div>
             <div class="mb-3">
-											<label class="form-label">Telefono celular</label>
-											<input class="form-control form-control-lg" type="text" name="dnipost" placeholder="Ingrese el Celular" />
+											<label>Teléfono / celular</label>
+											<input type="text" name="dnipost"  />
 						</div>
 
             <div class="text-center mt-3">

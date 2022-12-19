@@ -10,9 +10,9 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet"/>
-  <link href="assets/css/styles.css" rel="stylesheet"/>
+
+  
   <link href="assets/css/styles2.css" rel="stylesheet"/>
-  <link href="assets/css/custom.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <!-- PayPal JavaScript SDK -->
   <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
@@ -28,7 +28,7 @@
 </header>
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
   <div class="container">
-    <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">ITDATA</a>
+    <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.php">ITDATA</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,10 @@
           <a class="nav-link text-uppercase" href="Eventos.php">Proximo Eventos</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase" href="Calendario.php">Calendario Actividades</a>
+          <a class="nav-link text-uppercase" href="Cursos.php">Cursos</a>
+        </li>
+        <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase" href="Contacto.php">Contacto</a>
         </li>
       </ul>
     </div>

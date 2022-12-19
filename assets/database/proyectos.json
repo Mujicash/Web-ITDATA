@@ -9,8 +9,7 @@
       "nombre": "Ulises Roman Concha",
       "correo": "nromanci@unmsm.edu.pe"
     },
-    "miembros": [
-      {
+    "miembros": [ {
         "condicion": "Miembro Externo",
         "codigo": "43452411",
         "nombre": "Cancho Rodriguez Ernesto David",
@@ -153,8 +152,7 @@
         "codigo": "72798401",
         "nombre": "Vilca Tarazona Joel Alberto",
         "correo": "joel.vilcal@unmsm.edu.pe"
-      }
-    ]
+      }]
   },
   {
     "id": 2,
@@ -166,7 +164,150 @@
       "nombre": "Javier Gamboa Cruzado",
       "correo": "jgamboac@unmsm.edu.pe"
     },
-    "miembros": []
+    "miembros": [{
+        "condicion": "Miembro Externo",
+        "codigo": "43452411",
+        "nombre": "Cancho Rodriguez Ernesto David",
+        "correo": "ernesto.cancho@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Externo",
+        "codigo": "1700142",
+        "nombre": "Cano ccoa Dominga Micaela",
+        "correo": "mcanoc@unaj.edu.pe"
+      },
+      {
+        "condicion": "Miembro Externo",
+        "codigo": "V164355-M",
+        "nombre": "Zavaleta Jorge",
+        "correo": "zavaleta@pet-si.ufrrj.br"
+      },
+      {
+        "condicion": "Responsable",
+        "codigo": "8510560",
+        "nombre": "Roman Concha Norberto Ulises",
+        "correo": "nromanc@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Co-Responsable",
+        "codigo": "6020241",
+        "nombre": "Rodriguez Rodriguez Ciro",
+        "correo": "crodriguez@unfv.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "25655590",
+        "nombre": "Bustamante Olivera Victor Hugo",
+        "correo": "vbustamanteo@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "40788722",
+        "nombre": "Chavez Herrera Carlos Ernesto",
+        "correo": "Cchavezh@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "41671087",
+        "nombre": "Escobedo Bailon Frank Edmundo",
+        "correo": "fescobedob@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "17906323",
+        "nombre": "Gamboa Cruzado Javier Arturo",
+        "correo": "jgamboac@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "40362859",
+        "nombre": "Herrera Quispe Jose Alfredo",
+        "correo": "jherrerag@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "8482690",
+        "nombre": "Navarro Depaz Carlos Edmundo",
+        "correo": "cnavarrod@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "25628915",
+        "nombre": "Piedra lsusqui Jose Cesar",
+        "correo": "jpiedrai@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "6182185",
+        "nombre": "Romero Naupari Pablo Jesus",
+        "correo": "promeron@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "22409532",
+        "nombre": "Soto Soto Luis",
+        "correo": "lsotos@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "8467451",
+        "nombre": "Yañez Duran Carlos Enrique",
+        "correo": "cyanezd@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Tesista",
+        "codigo": "44231370",
+        "nombre": "Chavez Aquino Danny Leo",
+        "correo": "danny_leo@gmail.com"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "72860274",
+        "nombre": "Agurto Briceño Erick Jhoel",
+        "correo": "erick.agurto@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "76605051",
+        "nombre": "Bancayán Mendoza Javier Antony",
+        "correo": "javier.bancayan@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "40914719",
+        "nombre": "Flores Chavez Silvana Luzmila",
+        "correo": "slfloreschavez@gmail.com"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "72022321",
+        "nombre": "Gonzales Tello Francis Angelino",
+        "correo": "f.gonzalestello.91@gmail.com"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "70423018",
+        "nombre": "Huapaya Vásquez Jose Alberto",
+        "correo": "jose.alberto huapaya@gmail.com"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "77298254",
+        "nombre": "Puyen Huapaya Jafet Raul",
+        "correo": "jafet.puyen@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "74064195",
+        "nombre": "Toribio Borja Kevin Arthur",
+        "correo": "kevin.toribio@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "72798401",
+        "nombre": "Vilca Tarazona Joel Alberto",
+        "correo": "joel.vilcal@unmsm.edu.pe"
+      }]
   },
   {
     "id": 3,
@@ -178,6 +319,149 @@
       "nombre": "José Herrera Quispe",
       "correo": "jherreraqG@unmsm.edu pe"
     },
-    "miembros": []
+    "miembros": [{
+        "condicion": "Miembro Externo",
+        "codigo": "43452411",
+        "nombre": "Cancho Rodriguez Ernesto David",
+        "correo": "ernesto.cancho@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Externo",
+        "codigo": "1700142",
+        "nombre": "Cano ccoa Dominga Micaela",
+        "correo": "mcanoc@unaj.edu.pe"
+      },
+      {
+        "condicion": "Miembro Externo",
+        "codigo": "V164355-M",
+        "nombre": "Zavaleta Jorge",
+        "correo": "zavaleta@pet-si.ufrrj.br"
+      },
+      {
+        "condicion": "Responsable",
+        "codigo": "8510560",
+        "nombre": "Roman Concha Norberto Ulises",
+        "correo": "nromanc@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Co-Responsable",
+        "codigo": "6020241",
+        "nombre": "Rodriguez Rodriguez Ciro",
+        "correo": "crodriguez@unfv.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "25655590",
+        "nombre": "Bustamante Olivera Victor Hugo",
+        "correo": "vbustamanteo@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "40788722",
+        "nombre": "Chavez Herrera Carlos Ernesto",
+        "correo": "Cchavezh@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "41671087",
+        "nombre": "Escobedo Bailon Frank Edmundo",
+        "correo": "fescobedob@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "17906323",
+        "nombre": "Gamboa Cruzado Javier Arturo",
+        "correo": "jgamboac@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "40362859",
+        "nombre": "Herrera Quispe Jose Alfredo",
+        "correo": "jherrerag@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "8482690",
+        "nombre": "Navarro Depaz Carlos Edmundo",
+        "correo": "cnavarrod@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "25628915",
+        "nombre": "Piedra lsusqui Jose Cesar",
+        "correo": "jpiedrai@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "6182185",
+        "nombre": "Romero Naupari Pablo Jesus",
+        "correo": "promeron@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "22409532",
+        "nombre": "Soto Soto Luis",
+        "correo": "lsotos@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Miembro Docente",
+        "codigo": "8467451",
+        "nombre": "Yañez Duran Carlos Enrique",
+        "correo": "cyanezd@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Tesista",
+        "codigo": "44231370",
+        "nombre": "Chavez Aquino Danny Leo",
+        "correo": "danny_leo@gmail.com"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "72860274",
+        "nombre": "Agurto Briceño Erick Jhoel",
+        "correo": "erick.agurto@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "76605051",
+        "nombre": "Bancayán Mendoza Javier Antony",
+        "correo": "javier.bancayan@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "40914719",
+        "nombre": "Flores Chavez Silvana Luzmila",
+        "correo": "slfloreschavez@gmail.com"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "72022321",
+        "nombre": "Gonzales Tello Francis Angelino",
+        "correo": "f.gonzalestello.91@gmail.com"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "70423018",
+        "nombre": "Huapaya Vásquez Jose Alberto",
+        "correo": "jose.alberto huapaya@gmail.com"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "77298254",
+        "nombre": "Puyen Huapaya Jafet Raul",
+        "correo": "jafet.puyen@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "74064195",
+        "nombre": "Toribio Borja Kevin Arthur",
+        "correo": "kevin.toribio@unmsm.edu.pe"
+      },
+      {
+        "condicion": "Colaborador",
+        "codigo": "72798401",
+        "nombre": "Vilca Tarazona Joel Alberto",
+        "correo": "joel.vilcal@unmsm.edu.pe"
+      }]
   }
 ]

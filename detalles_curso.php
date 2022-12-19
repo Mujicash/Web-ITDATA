@@ -8,13 +8,6 @@ $e     = getCourseById($id);
 if ($e == null) header("location:index.php");
 
 ?>
-  <style>
-      @media screen and (max-width: 400px) {
-          h5.fw-bolder {
-              font-size: 12px;
-          }
-      }
-  </style>
   <div hidden id="inscripcion-correcta" class="alert alert-success fade show fixed-bottom" role="alert">
     <i class="bi-check-circle-fill px-2"></i><strong>Inscripción exitosa</strong>
     Ya se encuentra inscrito en el curso

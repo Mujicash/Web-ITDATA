@@ -6,23 +6,22 @@ $proyectos = getAllProjects();
 ?>
   <div class="box-container">
       <?php foreach ($proyectos as $proyecto): ?>
-        <div class="box">
-          <div class="heading">
-            <h2><?php echo $proyecto["nombre"]; ?> </h2>
+          <div class="box">
+            <a class="project" href="proyecto.php?idProyecto=<?php echo $proyecto["id"]; ?>">
+            <div class="heading p-4 pb-0">
+              <h3><?php echo $proyecto["nombre"]; ?> </h3>
+            </div>
+            <img src="<?php echo $proyecto["imagen"]; ?>" alt=""/>
+            <div class="text">
+              <p>
+                Responsable: <?php echo $proyecto["responsable"]["nombre"]; ?> <br>
+                Correo: <?php echo $proyecto["responsable"]["correo"]; ?> <br>
+                Código: <?php echo $proyecto["codigo"]; ?> <br>
+                Tipo: <?php echo $proyecto["tipo"]; ?>
+              </p>
+            </div>
+          </a>
           </div>
-          <img src="<?php echo $proyecto["imagen"]; ?>" alt=""/>
-          <div class="text">
-            <p>
-              Responsable: <?php echo $proyecto["responsable"]["nombre"]; ?> <br>
-              Correo: <?php echo $proyecto["responsable"]["correo"]; ?> <br>
-              Código: <?php echo $proyecto["codigo"]; ?> <br>
-              Tipo: <?php echo $proyecto["tipo"]; ?>
-            </p>
-            <a class="project-card-button" href="proyecto.php?idProyecto=<?php echo $proyecto["id"]; ?>">
-              Más información
-            </a>
-          </div>
-        </div>
       <?php endforeach; ?>
   </div>
 
